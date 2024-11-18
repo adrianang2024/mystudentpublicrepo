@@ -15,10 +15,10 @@ pipeline {
         stage('Run Ansible Playbook') {
             steps {
                 ansiblePlaybook(
-                    playbook: "${ANSIBLE_PLAYBOOK}"
-					extraVars: [
-					  my_text = "${params.my_text}"
-					      ]
+                playbook: "${ANSIBLE_PLAYBOOK}"
+				extraVars: [
+				  my_text = "${params.my_text}"
+				      ]
                 )
             }
         }
