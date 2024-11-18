@@ -2,21 +2,14 @@ pipeline {
     agent any
 
     environment {
-        ANSIBLE_INVENTORY = 'path/to/your/inventory/file'
-        ANSIBLE_PLAYBOOK = 'path/to/your/playbook.yml'
+        ANSIBLE_INVENTORY = '/home/ansible/inventory'
+        ANSIBLE_PLAYBOOK = '/home/ansible/hello_world.yml'
     }
 
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo/your-project.git'
-            }
-        }
-
-        stage('Install Ansible') {
-            steps {
-                sh 'sudo apt-get update'
-                sh 'sudo apt-get install -y ansible'
+                git branch: 'main', url: 'https://github.com/adrianang2024/mystudentpublicrepo.git'
             }
         }
 
