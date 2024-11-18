@@ -8,3 +8,8 @@
     - name: PB1 TASK1
       ansible.builtin.debug:
         msg: "Hello World!"
+
+
+    - name: PB1 TASK2
+      ansible.builtin.debug:
+        msg: {{my_text}}
