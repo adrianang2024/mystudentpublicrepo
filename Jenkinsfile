@@ -19,7 +19,7 @@ pipeline {
 				extraVars: [
 				  my_text = "${params.my_text}"
 				      ]
-                )
+                  )
             }
         }
     }
