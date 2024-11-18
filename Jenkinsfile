@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ANSIBLE_INVENTORY = '/tmp/inventory'
+#        ANSIBLE_INVENTORY = '/tmp/inventory'
         ANSIBLE_PLAYBOOK = '/tmp/hello_world.yml'
     }
 
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 ansiblePlaybook(
                     playbook: "${ANSIBLE_PLAYBOOK}",
-                    inventory: "${ANSIBLE_INVENTORY}"
+#                    inventory: "${ANSIBLE_INVENTORY}"
                 )
             }
         }
