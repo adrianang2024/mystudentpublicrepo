@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         ANSIBLE_PLAYBOOK = 'hello_world.yml'
-		my_text = "${params.my_text}"
+		ANSIBLE_MY_TEXT = "${params.my_text}"
     }
 
     stages {

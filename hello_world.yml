@@ -12,4 +12,4 @@
 
     - name: PB1 TASK2
       ansible.builtin.debug:
-        msg: "{{my_text}}"
+        msg: "{{ANSIBLE_MY_TEXT}}"
