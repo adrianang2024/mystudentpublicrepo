@@ -17,9 +17,7 @@ pipeline {
                 ansiblePlaybook(
                 playbook: "${ANSIBLE_PLAYBOOK}",
 				extraVars: [
-				  my_text = "${params.my_text}",
-                  my_a = "9"
-
+				  my_text = "${params.my_text}"
 				      ]
                   )
             }
