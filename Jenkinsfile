@@ -16,10 +16,8 @@ pipeline {
             steps {
                 ansiblePlaybook(
                 playbook: "${ANSIBLE_PLAYBOOK}",
-				extraVars: [
-				  my_text = "${params.my_text}"
-				      ]
-                  )
+				extraVars: [ my_text = "123" ]
+                )
             }
         }
     }
