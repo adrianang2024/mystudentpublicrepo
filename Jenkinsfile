@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        ANSIBLE_INVENTORY = '/home/ansible/inventory'
-        ANSIBLE_PLAYBOOK = '/home/ansible/hello_world.yml'
+        ANSIBLE_INVENTORY = '/tmp/inventory'
+        ANSIBLE_PLAYBOOK = '/tmp/hello_world.yml'
     }
 
     stages {
