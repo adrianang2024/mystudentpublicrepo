@@ -1,0 +1,10 @@
+- name: PB1
+  hosts: localhost
+  vars:
+    pg_version: "17"
+
+  tasks:
+
+    - name: PB1 TASK1
+      ansible.builtin.debug:
+        msg: "Hello World!"

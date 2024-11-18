@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ANSIBLE_PLAYBOOK = '/tmp/hello_world.yml'
+        ANSIBLE_PLAYBOOK = 'hello_world.yml'
     }
 
     stages {
