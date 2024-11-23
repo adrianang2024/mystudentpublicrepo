@@ -1,0 +1,8 @@
+---
+- name: Test2
+  hosts: all
+
+  tasks:
+  - name: Run shell 
+    ansible.builtin.shell: date
+
