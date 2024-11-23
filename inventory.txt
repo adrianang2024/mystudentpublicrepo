@@ -1,1 +1,1 @@
-host1.localdomain ansible_user: root ansible_password: 8212adri14
+host1.localdomain ansible_user=root ansible_password=8212adri14
