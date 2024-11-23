@@ -6,4 +6,10 @@
   tasks:
   - name: Run shell 
     ansible.builtin.shell: echo `hostname`
+    register: command_output
+    
+  - name: Run shell 
+    ansible.builtin.debug: 
+    msg: command_output
+    
 
