@@ -11,7 +11,7 @@
   - name: Create your local file on master node
     ansible.builtin.lineinfile:
       path: /tmp/output.txt
-      line: "{{ command_output.stdout_lines }} {{ command_output.stdout_lines }} {{ command_output.stdout_lines }}"
+      line: "{{ ansible_fqdn }} {{ command_output.stdout_lines }} {{ command_output.stdout_lines }}"
       create: yes
     delegate_to: localhost
     
