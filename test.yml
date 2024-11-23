@@ -9,11 +9,13 @@
     register: command_output
       
   - name: Create your local file on master node
+    become: true
     ansible.builtin.file:
       path: /tmp/output.txt
     delegate_to: localhost
     
   - name: Print output to file
+    become: true  
     ansible.builtin.copy:
       content: "{{command_output.stdout}}"
       dest: /tmp/output.txt
