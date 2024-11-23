@@ -1,0 +1,10 @@
+host1.localdomain ansible_user=root ansible_password=8212adri14
+host2.localdomain ansible_user=root ansible_password=8212adri14
+host3.localdomain ansible_user=root ansible_password=8212adri14
+host4.localdomain ansible_user=root ansible_password=8212adri14
+host5.localdomain ansible_user=root ansible_password=8212adri14
+host6.localdomain ansible_user=root ansible_password=8212adri14
+host7.localdomain ansible_user=root ansible_password=8212adri14
+host8.localdomain ansible_user=root ansible_password=8212adri14
+host9.localdomain ansible_user=root ansible_password=8212adri14
+host10.localdomain ansible_user=root ansible_password=8212adri14
