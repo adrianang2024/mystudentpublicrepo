@@ -10,7 +10,7 @@
       
   - name: Create your local file on master node
     ansible.builtin.file:
-      path: output.txt
+      path: /tmp/output.txt
       owner: jenkins
       group: jenkins
       mode: '0644'
@@ -19,7 +19,7 @@
   - name: Print output to file
     ansible.builtin.copy:
       content: "{{command_output.stdout}}"
-      dest: output.txt
+      dest: /tmp/output.txt
     delegate_to: localhost      
     
 
