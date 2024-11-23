@@ -1,10 +1,10 @@
-host1.localdomain ansible_user=root ansible_password=8212adri14
-host2.localdomain ansible_user=root ansible_password=8212adri14
-host3.localdomain ansible_user=root ansible_password=8212adri14
-host4.localdomain ansible_user=root ansible_password=8212adri14
-host5.localdomain ansible_user=root ansible_password=8212adri14
-host6.localdomain ansible_user=root ansible_password=8212adri14
-host7.localdomain ansible_user=root ansible_password=8212adri14
-host8.localdomain ansible_user=root ansible_password=8212adri14
-host9.localdomain ansible_user=root ansible_password=8212adri14
-host10.localdomain ansible_user=root ansible_password=8212adri14
+host1.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host2.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host3.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host4.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host5.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host6.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host7.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host8.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host9.localdomain ansible_user=root ansible_password=8212adri14   ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+host10.localdomain ansible_user=root ansible_password=8212adri14  ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
