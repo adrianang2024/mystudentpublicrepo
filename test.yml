@@ -8,17 +8,19 @@
     ansible.builtin.shell: echo `hostname`
     register: command_output
 
-  - name: Remove your local file on master node
+  - name: Remove your local file on master node  
     ansible.builtin.file:
       path: /tmp/output.txt
       state: absent
     delegate_to: localhost
+    run_once: true
 
   - name: Create your local file on master node
     ansible.builtin.file:
       path: /tmp/output.txt
       state: touch
     delegate_to: localhost
+    run_once: true
 
       
   - name: Create your local file on master node
