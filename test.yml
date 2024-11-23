@@ -5,7 +5,7 @@
 
   tasks:
   - name: Run shell 
-    ansible.builtin.shell: free
+    ansible.builtin.shell: echo `hostname`
     register: command_output
 
   - name: Remove your local file on master node  
