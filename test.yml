@@ -1,6 +1,7 @@
 ---
 - name: Test2
   hosts: all
+  gather_facts: no
 
   tasks:
   - name: Run shell 
