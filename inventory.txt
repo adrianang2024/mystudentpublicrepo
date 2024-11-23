@@ -1,5 +1,1 @@
-host1.localdomain
-host2.localdomain
-host3.localdomain
-host4.localdomain
-host5.localdomain
+host1.localdomain ansible_user: root ansible_password: 8212adri14
