@@ -1,29 +1,5 @@
-hosts:
-  host1:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host2:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host3:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host4:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host5:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host6:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host7:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host8:
-    ansible_user: root
-    ansible_password: 8212adri14
-  host9:
-    ansible_user: root
-    ansible_password: 8212adri14
-    
+host1.localdomain
+host2.localdomain
+host3.localdomain
+host4.localdomain
+host5.localdomain
